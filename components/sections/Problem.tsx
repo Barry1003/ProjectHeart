@@ -30,7 +30,7 @@ export function Problem() {
         <Reveal delay={0.2}>
           <div className="problem-bottom">
             <blockquote><T en="“The challenge was not a lack of interest in health, but limited access to convenient preventive healthcare.”" yo="“Ipenija naa kii ṣe pe wọn ko nifẹ si ilera, ṣugbọn aini aye ti o rọrun lati gba itọju ilera idena.”" /></blockquote>
-            <div className="barriers"><h3><T en="What gets in the way" yo="Kini awọn ohun idena" /></h3><ul><li><T en="Long PHC waiting times" yo="Idaduro pipẹ ni PHC" /></li><li><T en="Work commitments" yo="Akoko idiwọ iṣẹ" /></li><li><T en="Convenience of informal care" ir ="Irọrun ti itọju ti kii ṣe ti gidi" yo="Irọrun ti itọju igberiko" /></li><li><T en="Misconceptions about preventive care" yo="Awọn ero ti ko tọ nipa itọju idena" /></li></ul></div>
+            <div className="barriers"><h3><T en="What gets in the way" yo="Kini awọn ohun idena" /></h3><ul><li><T en="Long PHC waiting times" yo="Idaduro pipẹ ni PHC" /></li><li><T en="Work commitments" yo="Akoko idiwọ iṣẹ" /></li><li><T en="Convenience of informal care" yo="Irọrun ti itọju igberiko" /></li><li><T en="Misconceptions about preventive care" yo="Awọn ero ti ko tọ nipa itọju idena" /></li></ul></div>
           </div>
         </Reveal>
       </div>
