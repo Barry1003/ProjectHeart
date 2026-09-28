@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SmoothScroll } from '@/components/SmoothScroll';
+import { LanguageProvider } from '@/components/LanguageProvider';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -16,7 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <SmoothScroll>
-          {children}
+          <LanguageProvider>
+            {children}
+          </LanguageProvider>
         </SmoothScroll>
       </body>
     </html>

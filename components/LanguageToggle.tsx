@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useLanguage } from "./LanguageProvider";
 
 export function LanguageToggle() {
-  const [language, setLanguage] = useState<"EN" | "YO">("EN");
+  const { lang, setLang } = useLanguage();
   return (
     <div className="language" aria-label="Choose language">
-      <button className={language === "EN" ? "active" : ""} onClick={() => setLanguage("EN")} aria-pressed={language === "EN"}>EN</button>
+      <button className={lang === "EN" ? "active" : ""} onClick={() => setLang("EN")} aria-pressed={lang === "EN"}>EN</button>
       <span>/</span>
-      <button className={language === "YO" ? "active" : ""} onClick={() => setLanguage("YO")} aria-pressed={language === "YO"}>YO</button>
+      <button className={lang === "YO" ? "active" : ""} onClick={() => setLang("YO")} aria-pressed={lang === "YO"}>YO</button>
     </div>
   );
 }
