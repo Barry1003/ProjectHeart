@@ -28,7 +28,7 @@ export function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-shell">
-        <a className="wordmark" href="#top" aria-label="Project HEART home" onClick={(e) => handleScroll(e, "#top")}><Icon name="heart" size={25} /><span>HEART</span></a>
+        <a className="wordmark" href="#top" aria-label="Project HEART home" onClick={(e) => handleScroll(e, "#top")}><img src="/image-2.png" alt="Project HEART Logo" style={{ width: 32, height: 32, objectFit: 'contain' }} /><span>HEART</span></a>
         <nav className={`nav-links ${open ? "is-open" : ""}`} aria-label="Main navigation">
           {links.map(([label, href]) => (
             <a key={href} href={href} onClick={(e) => handleScroll(e, href)}>{label}</a>

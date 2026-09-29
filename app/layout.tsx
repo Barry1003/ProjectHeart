@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SmoothScroll } from '@/components/SmoothScroll';
+import { SpeedDial } from '@/components/ui/SpeedDial';
 import { LanguageProvider } from '@/components/LanguageProvider';
 import './globals.css';
 
@@ -19,6 +20,7 @@ export default function RootLayout({
         <SmoothScroll>
           <LanguageProvider>
             {children}
+            <SpeedDial />
           </LanguageProvider>
         </SmoothScroll>
       </body>

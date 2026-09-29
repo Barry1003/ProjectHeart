@@ -1,6 +1,8 @@
 import { Navbar } from "@/components/Navbar";
 import { Stripe } from "@/components/ui/Stripe";
 import { Hero } from "@/components/sections/Hero";
+import { WhoWeServe } from "@/components/sections/WhoWeServe";
+import { PhcMap } from "@/components/sections/PhcMap";
 import { Problem } from "@/components/sections/Problem";
 import { Model } from "@/components/sections/Model";
 import { Journey } from "@/components/sections/Journey";
@@ -19,12 +21,14 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <WhoWeServe />
         <Problem />
         <Stripe />
         <Model />
         <Journey />
         <Stewards />
         <HealthHub />
+        <PhcMap />
         <Outcomes />
         <Team />
         <GetInvolved />
